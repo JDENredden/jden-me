@@ -1,0 +1,16 @@
+---
+title: The one thing you should learn
+date: 2017-03-29 07:06:14
+---
+
+With more than [1160](https://www.adelaidefringe.com.au/news/record-ticket-sales-leave-fringe-feeling-the-love) shows this year at the Adelaide Fringe setting your self apart from the noise is increasingly difficult. Someone once told me that the Edinburgh Fringe is the most competitive environment in the world, and if you can sell your show there—you can sell anything. The Adelaide Fringe is the second largest Fringe festival in the world and although we some way behind in terms of volume of ticket sales I think the environment has become exponentially competitive.
+
+Having great marketing material is absolutely important, but beyond having great high quality material I think the more important thing to learn is how to _use_ that material. In particular I am talking about learning how to use Photoshop. As a performer or producer your core competency is not graphic design, but your core competency is to sell tickets. To sell tickets you need to excite your audience, and and to excite your audience you need to make adaptive marketing collateral.
+
+This year I bought an ad in the Fringe guide, it was a quarter page advert in the magic section. I was given the dimensions for that advert and I adapted the posters from the shows to fit in the advert space. Something I would have to out source to a graphic design firm if I didn't know how to use Photoshop. What happened next exemplifies why I think knowing how to use Photoshop should be your core competency. A few days after the deadline for submitting adverts I got a phone call from the advertising department. They told me that my advert being in the magic section would cause it to flow onto another page. So they offered to cut my advert in half to make sure the selection wouldn't flow, and in return give me a full page vertical advert. The catch? I had to have it to them by close of business. So I sprang into gear and after an hour or so I had reworked my adverts to fit into the new dimensions and just like that I had gained a free advert worth over $1000. Now if I had to send this off to the firm in charge of my graphic design, I would have missed out on this opportunity and someone else would have taken my spot.
+
+I am not advocating for artists to be designing their own posters—I think there is already too much of that already. Have someone else—a professional—design your poster and also design a set of graphic assets that you can then adapt and change with Photoshop (or similar) into other pieces of marketing material. Its benefits are two fold, you save money and can be more fluid in how your market your show. Every social network has different dimensions for their adverts or social posts. The dimensions for a Facebook event image is different to a Facebook cover photo and is different to a Facebook advert photo. All these require very small tweets to have the best impact, not enough work to pay someone to do it, but not difficult to do yourself either.
+
+Do your self a favour, learn some Photoshop.
+
+This post is part of the series [The Tale of Two Fringes](https://blog.jden.me/the-tale-of-two-fringes/) for the months January and February of [12 Things, 12 Months](https://blog.jden.me/12-months-12-things/).

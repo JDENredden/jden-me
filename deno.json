@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window"]
+  },
+  "tasks": {
+    "start": "deno run --allow-read --allow-write --allow-net --allow-env --allow-run npm:@11ty/eleventy --serve",
+    "build": "deno run --allow-read --allow-write --allow-net --allow-env --allow-run npm:@11ty/eleventy"
+  },
+  "fmt": {
+    "proseWrap": "preserve"
+  }
+}

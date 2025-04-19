@@ -1,0 +1,23 @@
+{
+  "eablokker.tabsSidebar.config.collapsedFolders" : [
+
+  ],
+  "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
+    "json",
+    "javascript",
+    "nunjucks-html",
+    "markdown",
+    "djangotemplate"
+  ],
+  "eablokker.tabsSidebar.config.customTabOrder" : [
+    "file:\/\/\/Users\/jden\/Sites\/jden-me\/content\/index.njk",
+    "file:\/\/\/Users\/jden\/Sites\/jden-me\/_data\/metadata.js",
+    "file:\/\/\/Users\/jden\/Sites\/jden-me\/content\/about.md",
+    "file:\/\/\/Users\/jden\/Sites\/jden-me\/deno.json",
+    "file:\/\/\/Users\/jden\/Sites\/jden-me\/eleventy.config.js",
+    "file:\/\/\/Users\/jden\/Sites\/jden-me\/content\/blog.njk",
+    "file:\/\/\/Users\/jden\/Sites\/jden-me\/_includes\/postslist.njk",
+    "file:\/\/\/Users\/jden\/Sites\/jden-me\/README.md"
+  ],
+  "prettier.default-config.proseWrap" : "Global Default"
+}
