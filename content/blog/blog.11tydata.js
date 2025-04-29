@@ -3,4 +3,7 @@ export default {
 		"posts"
 	],
 	"layout": "layouts/post.njk",
+	eleventyComputed: {
+		permalink: (data) => `/blog/${ data.page.fileSlug }/`
+	}
 };
