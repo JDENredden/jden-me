@@ -73,7 +73,7 @@ export default async function(eleventyConfig) {
 	});
 
 	// Image shortcode
-	eleventyConfig.addAsyncShortcode("image", async function(src, alt, sizes = "100vw") {
+	eleventyConfig.addAsyncShortcode("image", async function(src, alt, sizes = "100vw", options = {}) {
 		if (!alt) {
 			throw new Error(`Missing \`alt\` on image from: ${src}`);
 		}
@@ -81,15 +81,9 @@ export default async function(eleventyConfig) {
 		// Handle absolute paths from public directory
 		let inputPath = src;
 		if (src.startsWith('/img/')) {
-			// All images must be in year/month folders - no fallback to root
+			// Get the relative path and construct the full path
 			const relativePath = src.slice(5);
 			const fullPath = `./public/img/${relativePath}`;
-			
-			// Verify that the path includes a year folder (should be 2017 or 2020)
-			if (!src.match(/\/img\/20\d{2}\//)) {
-				throw new Error(`Image path must include year/month folders: ${src}`);
-			}
-			
 			inputPath = fullPath;
 		}
 
@@ -109,6 +103,16 @@ export default async function(eleventyConfig) {
 			loading: "lazy",
 			decoding: "async",
 		};
+		
+		// Add any style attributes from options
+		if (options.style) {
+			imageAttributes.style = options.style;
+		}
+		
+		// Add any class attributes from options
+		if (options.class) {
+			imageAttributes.class = options.class;
+		}
 
 		return Image.generateHTML(metadata, imageAttributes);
 	});
