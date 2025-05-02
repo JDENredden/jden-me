@@ -152,7 +152,7 @@ area. While in 35mm motion picture film, the perforations were along the shorter
 side of the frame, and the film was fed vertically across the exposure area. You
 see this illustrated in the image below, from WikiMedia Commons.
 
-![135 film versus 35mm motion picture film. Drawings courtesy of WikiMedia Commons.](/content/images/2020/07/135-vs-35mm.jpg)
+{% image "/img/2020/07/135-vs-35mm.jpg", "135 film versus 35mm motion picture film. Drawings courtesy of WikiMedia Commons." %}
 
 Using the 135 full-frame sensor size as a base-line for cinema focal lengths is
 a bit of a misnomer. Most cinema lenses were designed to cover 35mm motion

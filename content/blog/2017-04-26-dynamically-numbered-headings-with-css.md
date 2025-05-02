@@ -94,7 +94,7 @@ The usage of this in the HTML would be:
 ```
 
 which renders like:
-![](/content/images/2017/04/Screen-Shot-2017-04-26-at-8.31.56-pm.png)
+{% image "/img/2017/04/Screen-Shot-2017-04-26-at-8.31.56-pm.png", "Dynamically numbered headings example" %}
 
 For completeness the LaTeX style CSS for headers is:
 

@@ -251,7 +251,7 @@ The full results are:
 | --------------- | ------- | ---------------- | ----- |
 | Electoral Votes | 50      | 42               | 135   |
 
-![First-past-the-post Electoral College Map 2019](/content/images/2020/11/first-past-the-post.png)
+{% image "/img/2020/11/first-past-the-post.png", "First-past-the-post Electoral College Map 2019" %}
 
 In this hypothetical Electoral College, Australia would have elected President
 Bill Shorten and Vice-President Tanya Plibersek with a plurality popular vote of
@@ -290,7 +290,7 @@ collected the four smallest states and territories for 98 electoral votes.
 | --------------- | --------- | ----- |
 | Electoral Votes | 129       | 98    |
 
-![Two-party-preferred Electoral College Map 2019](/content/images/2020/11/two-party-preferred.png)
+{% image "/img/2020/11/two-party-preferred.png", "Two-party-preferred Electoral College Map 2019" %}
 
 In this hypothetical Electoral College, Australia would have elected President
 Scott Morrison and Vice-President Micheal McCormack with a majority 51.5% of the

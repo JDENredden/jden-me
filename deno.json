@@ -3,9 +3,12 @@
     "allowJs": true,
     "lib": ["deno.window"]
   },
+  "imports": {
+    "@11ty/eleventy-img": "npm:@11ty/eleventy-img"
+  },
   "tasks": {
-    "start": "deno run --allow-read --allow-write --allow-net --allow-env --allow-run npm:@11ty/eleventy --serve",
-    "build": "deno run --allow-read --allow-write --allow-net --allow-env --allow-run npm:@11ty/eleventy"
+    "start": "deno run --allow-read --allow-write --allow-net --allow-env --allow-sys --allow-run npm:@11ty/eleventy --serve",
+    "build": "deno run --allow-read --allow-write --allow-net --allow-env --allow-sys --allow-run npm:@11ty/eleventy"
   },
   "fmt": {
     "proseWrap": "preserve"

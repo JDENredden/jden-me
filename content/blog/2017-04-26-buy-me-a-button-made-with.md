@@ -30,7 +30,7 @@ There is of-course a start-up that provides this button as a service, with an eq
 
 It's pretty nice and appropriately Web 3.0 looking. However, I have issues with it. It's just a link to a website, and the website has allot going on.
 
-![Screenshot of Ko-Fi profile](/content/images/2017/04/Screen-Shot-2017-04-26-at-8.50.03-pm.png)
+{% image "/img/2017/04/Screen-Shot-2017-04-26-at-8.50.03-pm.png", "Screenshot of Ko-Fi profile" %}
 
 Like, I'm not sure why there is an option to add comments as if it was a Facebook wall. Being an external link it's jarring and reduces any incentive for me to give money. I was hoping the website would be a super minimal and just a simple form to donate a few bucks. It also uses PayPal as its payment platform, and if I can avoid it I don't want to ever use PayPal again. Then it dawned on me, I was hoping it was a [Stripe](https://stripe.com) dialogue (click the button).
 
@@ -73,4 +73,4 @@ Finally putting it all together we have.
 
 And this is what it looks like on [TheMaths.Blog](https://themaths.blog).
 
-![TheMaths.Blog footer](/content/images/2017/04/Screen-Shot-2017-04-26-at-10.08.42-pm.png)
+{% image "/img/2017/04/Screen-Shot-2017-04-26-at-10.08.42-pm.png", "TheMaths.Blog footer" %}

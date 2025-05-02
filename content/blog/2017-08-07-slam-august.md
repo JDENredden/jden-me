@@ -23,7 +23,7 @@ I have had the tab open for this for pretty much 6-months, and have not started 
 
 I do find something endearing about slam poetry though. My idea is to do something akin to the dual dialogue you hear a lot in musicals. In particular I really love the song _[Farmer Refuted](https://itun.es/au/6O3g9?i=1025212449)_ by Lin-Manuel Miranda in Hamilton.
 
-![Genius annotation for Farmer Refuted](/content/images/2017/08/Screen-Shot-2017-08-07-at-5.44.17-pm.png)
+{% image "/img/2017/08/Screen-Shot-2017-08-07-at-5.44.17-pm.png", "Genius annotation for Farmer Refuted" %}
 
 I mean this annotation on [Genius](https://genius.com/7910511) says it all.
 

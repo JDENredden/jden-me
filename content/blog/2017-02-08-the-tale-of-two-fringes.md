@@ -9,7 +9,7 @@ The two shows are [_SUPERHUMAN_](www.FascinatingLies.com/SUPERHUMAN) at The Ball
 
 #### SUPERHUMAN
 
-![SUPERHUMAN logo](/content/images/2017/03/LOGO-1.jpg)
+{% image "/img/2017/03/LOGO-1.jpg", "SUPERHUMAN logo" %}
 
 > Not all heroes wear capes — some read minds.
 
@@ -25,7 +25,7 @@ The two shows are [_SUPERHUMAN_](www.FascinatingLies.com/SUPERHUMAN) at The Ball
 
 #### The Expert at the Card Table — How to Cheat at Cards
 
-![Expert Logo](/content/images/2017/03/LOGO.jpg)
+{% image "/img/2017/03/LOGO.jpg", "Expert Logo" %}
 
 > Armed with only 52 playing cards, two hands and 60 minutes, jden redden—the expert at cards—is back from his sell-out debut, 2016 Fringe show, _Reading Minds and Other Fascinating Lies_.
 

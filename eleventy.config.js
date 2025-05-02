@@ -2,8 +2,7 @@ import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
-
+import Image from "@11ty/eleventy-img";
 import pluginFilters from "./_config/filters.js";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
@@ -19,7 +18,8 @@ export default async function(eleventyConfig) {
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig
 		.addPassthroughCopy({
-			"./public/": "/"
+			"./public/": "/",
+			"./public/img/": "/img/"
 		})
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");
 
@@ -72,25 +72,49 @@ export default async function(eleventyConfig) {
 		}
 	});
 
-	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
-	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-		// Output formats for each image.
-		formats: ["avif", "webp", "auto"],
+	// Image shortcode
+	eleventyConfig.addAsyncShortcode("image", async function(src, alt, sizes = "100vw") {
+		if (!alt) {
+			throw new Error(`Missing \`alt\` on image from: ${src}`);
+		}
 
-		// widths: ["auto"],
-
-		failOnError: false,
-		htmlOptions: {
-			imgAttributes: {
-				// e.g. <img loading decoding> assigned on the HTML tag will override these values.
-				loading: "lazy",
-				decoding: "async",
+		// Handle absolute paths from public directory
+		let inputPath = src;
+		if (src.startsWith('/img/')) {
+			// Remove /img/ and check if path exists as is
+			const relativePath = src.slice(5);
+			const fullPath = `./public/img/${relativePath}`;
+			
+			try {
+				await Deno.stat(fullPath);
+				inputPath = fullPath;
+			} catch {
+				console.log(`Image not found at ${fullPath}, trying without year/month...`);
+				// If not found, try without year/month structure
+				const pathParts = relativePath.split('/');
+				const filename = pathParts[pathParts.length - 1];
+				inputPath = `./public/img/${filename}`;
 			}
-		},
+		}
 
-		sharpOptions: {
-			animated: true,
-		},
+		let metadata = await Image(inputPath, {
+			widths: [300, 600, 900, 1200],
+			formats: ["avif", "webp", "jpeg"],
+			urlPath: "/img/",
+			outputDir: "_site/img/",
+			sharpOptions: {
+				animated: true,
+			},
+		});
+
+		let imageAttributes = {
+			alt,
+			sizes,
+			loading: "lazy",
+			decoding: "async",
+		};
+
+		return Image.generateHTML(metadata, imageAttributes);
 	});
 
 	// Filters

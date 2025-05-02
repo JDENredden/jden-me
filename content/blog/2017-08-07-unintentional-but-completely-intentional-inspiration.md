@@ -40,7 +40,7 @@ The only thing left to discuss is the length of the book. How many people will I
 
 At some stage I decided to also write a series of 3 essays on _Life, Liberty, and the Pursuit of Happiness_ which is a horrifically American thing to want to write about, but I found a screenshot of this on my desktop which probably explains the latent thoughts in my brain that made me think this was a good idea.
 
-![Pursuit of Happiness by Kid Cudi](/content/images/2017/08/Screen-Shot-2017-08-03-at-9.34.31-pm-1.png)
+{% image "/img/2017/08/Screen-Shot-2017-08-03-at-9.34.31-pm-1.png", "Pursuit of Happiness by Kid Cudi" %}
 
 Also the constant _Hamilton_ listening over the last year probably contributed.
 
@@ -55,4 +55,4 @@ With the inclusion of the 3-essays I decided to reduce the number of people by 1
 
 And hence the now complete and ready show title page.
 
-![Title page of Famous Last Lies](/content/images/2017/08/Screen-Shot-2017-08-07-at-5.26.45-pm.png)
+{% image "/img/2017/08/Screen-Shot-2017-08-07-at-5.26.45-pm.png", "Title page of Famous Last Lies" %}

@@ -32,7 +32,7 @@ I first stumbled upon these many years ago probably in 2012 or 2011, and I remem
 The collection called [TYPE](http://type.gs) by Japanese eyewear company [Oh My Glasses](https://www.ohmyglasses.jp) — which is an amazing name for a company — and are for sale only in Japan.
 
 They have some pretty cool marketing.
-![TYPE.GS marketing image](/content/images/2017/06/11009221_1600348206845754_4086282558641848917_n.jpg)
+{% image "/img/2017/06/11009221_1600348206845754_4086282558641848917_n.jpg", "TYPE.GS marketing image" %}
 
 The collection covers 14 different typefaces and hits most pet favourites including: Helvetica, Futura, Garamond, Din, Times New Roman, and others. They retail for 27,000 JPY which equates to around $300-350 AUD, which is about what you would pay for designer eyewear.
 
@@ -42,19 +42,19 @@ It can sometimes easy to feel that just because someone has already done the thi
 
 Secondarily, I think I could do a better job at the design. The designs to me look somewhat pedestrian, I would struggle to identify many of them to their derivative fonts without cheating. I don't think they did a really good job at capturing the character of each typeface and converting that to a piece of eyewear.
 
-![Helvetica Regular by TYPE.GS](/content/images/2017/06/Screen-Shot-2017-06-25-at-6.52.21-pm.png)
+{% image "/img/2017/06/Screen-Shot-2017-06-25-at-6.52.21-pm.png", "Helvetica Regular by TYPE.GS" %}
 
 This is Helvetica Regular, perhaps the most recognised typefaces in the world — one that comes with a cult following — yet I don't see any of its iconic curves in the glasses. The stroke widths and the relationships between the thick and thin parts bear no resemblance to the regular and idealised glyphs of Helvetica. Two of the most iconic shapes of Helvetica, the leg of the uppercase "R" and the counter of the lowercase "a", the whitespace in the hole are no where to be found. I'm not sure of the two dots on either side, not quite sure how they tie into the rest of the design.
 
-![Din by TYPE.GS](/content/images/2017/06/Screen-Shot-2017-06-25-at-7.18.34-pm.png)
+{% image "/img/2017/06/Screen-Shot-2017-06-25-at-7.18.34-pm.png", "Din by TYPE.GS" %}
 
 Some are better than others however. The Din design does slightly better, but still is more like a standard modern piece of eyewear than it is an "inspired by" piece.
 
-![American Typewriters by TYPE.GS](/content/images/2017/06/Screen-Shot-2017-06-25-at-7.55.35-pm.png)
+{% image "/img/2017/06/Screen-Shot-2017-06-25-at-7.55.35-pm.png", "American Typewriters by TYPE.GS" %}
 
 A monospace serif typeface like American Typewriter to me seems like the perfect starting point for a piece of eyewear, but again we have a pretty stock-standard and uneventful design. The unique serifs so characteristic of American Typewriter are no where, the closet we get is the nose arch resembles them almost.
 
-![Times New Roman by TYPE.GS](/content/images/2017/06/Screen-Shot-2017-06-25-at-8.04.18-pm.png)
+{% image "/img/2017/06/Screen-Shot-2017-06-25-at-8.04.18-pm.png", "Times New Roman by TYPE.GS" %}
 
 Perhaps the most disappointing design is the one based on Times New Roman. The default font for Microsoft Word for years and years and in return it gets a Clubmaster clone. It feels like they ran out of eyewear shapes and needed to have a Clubmaster clone in there somewhere and Times New Roman got drew the short stick. The contrasting thick and thin strokes of Times New Roman that gives it the distinctive and iconic look are wasted on a gold chrome finish. It could be better.
 
