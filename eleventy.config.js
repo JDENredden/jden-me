@@ -81,20 +81,16 @@ export default async function(eleventyConfig) {
 		// Handle absolute paths from public directory
 		let inputPath = src;
 		if (src.startsWith('/img/')) {
-			// Remove /img/ and check if path exists as is
+			// All images must be in year/month folders - no fallback to root
 			const relativePath = src.slice(5);
 			const fullPath = `./public/img/${relativePath}`;
 			
-			try {
-				await Deno.stat(fullPath);
-				inputPath = fullPath;
-			} catch {
-				console.log(`Image not found at ${fullPath}, trying without year/month...`);
-				// If not found, try without year/month structure
-				const pathParts = relativePath.split('/');
-				const filename = pathParts[pathParts.length - 1];
-				inputPath = `./public/img/${filename}`;
+			// Verify that the path includes a year folder (should be 2017 or 2020)
+			if (!src.match(/\/img\/20\d{2}\//)) {
+				throw new Error(`Image path must include year/month folders: ${src}`);
 			}
+			
+			inputPath = fullPath;
 		}
 
 		let metadata = await Image(inputPath, {
