@@ -75,7 +75,7 @@ The email, [&#105;&#097;&#109;&#064;&#106;&#100;&#101;&#110;&#046;&#109;&#101;](
 
 #### Analytics
 
-Analytics are provided by [Pirsch Analytics](https://pirsch.io) — privacy-first analytics.
+Analytics are provided by [Umami](https://umami.is) — privacy-first, self-hosted analytics.
 
 ### Web standards
 
